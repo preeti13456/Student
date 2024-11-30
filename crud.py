@@ -1,5 +1,5 @@
-from Student.database import db
-from Student.models import Student
+from .database import db
+from .models import Student
 from bson import ObjectId
 
 def student_helper(student):
