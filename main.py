@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from .schemas import StudentCreate, StudentResponse
-from .crud import add_student, get_student, update_student, delete_student
+from schemas import StudentCreate, StudentResponse
+from crud import add_student, get_student, update_student, delete_student
 
 app = FastAPI()
 
