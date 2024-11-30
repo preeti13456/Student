@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+motor  # For MongoDB (if using async)
+pymongo  # For MongoDB (if using sync)
